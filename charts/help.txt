@@ -1,0 +1,14 @@
+# Check chart validity
+helm lint .
+
+# Run a template test
+helm template .
+
+# Package a chart (copy the .tgz file to the cynest-charts repo then create the chart index)
+helm package chartfolder/
+
+# Perform a dry-run
+helm install --dry-run release-name chartname
+
+# Create chart index
+helm repo index cynest-charts --url https://cynest.github.io/cynest-charts/
