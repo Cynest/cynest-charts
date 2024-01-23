@@ -3,9 +3,9 @@ entries:
   timedrop:
   - apiVersion: v2
     appVersion: 1.1.4
-    created: "2024-01-23T18:13:13.737929954Z"
+    created: "2024-01-23T18:29:36.387028295Z"
     description: A Helm chart for Kubernetes to install the timedrop service
-    digest: 840fafc29f5b3f3081317beed8cbde10798cfc4f88dbae1db32d7bc770d12f36
+    digest: 79c086bea863bbbf588faeb850453a238e93f554193593b198b5023eb0a8c4f5
     maintainers:
     - email: contact@cynest.com
       name: cynest
@@ -14,4 +14,4 @@ entries:
     urls:
     - https://cynest.github.io/cynest-charts/timedrop-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-23T18:13:13.73460511Z"
+generated: "2024-01-23T18:29:36.38558271Z"
